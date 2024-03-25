@@ -17,7 +17,7 @@ export interface ProductData {
 
 export interface ProductsState {
   products: Product[];
-  status: "idle" | "loading" | "succeeded" | "failed";
+  status: "idle" | "loading" | "succeeded" | "failed" | "unknown";
   error: string | null | undefined;
   category: string | null;
   search: string;
